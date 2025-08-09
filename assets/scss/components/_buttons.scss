@@ -1,0 +1,79 @@
+.btn-outline-natural-85 {
+    color: $dark;
+}
+.btn-outline-natural-85:hover {
+    background-color: $natural-90;
+    border: 1px solid $natural-90;
+}
+
+.btn-secondary:hover {
+    color: $light;
+    background-color: $primary;
+    border: 1px solid $primary;
+}
+
+.btn-dark:hover {
+    color: $dark;
+    background-color: $secondary;
+    border: 1px solid $secondary;
+}
+
+.btn-rwd {
+    padding: 0.75rem 1.25rem; // 預設 btn-base
+    font-size: 1rem;
+    border-radius: 1rem;
+
+    @include media-breakpoint-down(md) {
+        padding: 0.75rem 0.75rem; // btn-sm 尺寸
+        font-size: 0.875rem;
+        border-radius: 0.75rem;
+    }
+
+    //   @include media-breakpoint-up(lg) {
+    //       btn-lg 尺寸
+    //
+    //   }
+}
+
+.btn-rwd-withIcon {
+    padding: 0.75rem 0.75rem 0.75rem 1.25rem; // 預設 btn-base
+    font-size: 1rem;
+    border-radius: 1rem;
+
+    @include media-breakpoint-down(md) {
+        padding: 0.75rem 0.75rem; // btn-sm 尺寸
+        font-size: 0.875rem;
+        border-radius: 0.75rem;
+    }
+
+    .material-icons-outlined {
+        vertical-align: bottom;
+        margin-left: 0.25rem;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.25rem;
+            margin-left: 0;
+        }
+    }
+}
+
+.btn-icon {
+    padding: 10px;
+}
+
+.btn-md-icon {
+    @include media-breakpoint-down(md) {
+        padding: 10px;
+    }
+}
+
+.btnClose {
+    line-height: 1;
+    padding: 10px;
+    margin: 0 0 0 auto;
+
+    &:hover {
+        background-color: $natural-90;
+        border-radius: 1rem;
+    }
+}

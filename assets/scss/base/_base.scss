@@ -1,0 +1,22 @@
+/* 標籤的基本樣式 */
+body {
+    letter-spacing: 0.02em;
+
+    @include media-breakpoint-down(md) {
+        font-size: 0.875rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}

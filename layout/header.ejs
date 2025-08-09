@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg border-bottom">
+    <div class="container-lg">
+        <a class="navbar-brand" href="index.html">
+            <img src="/assets/images/logo.svg" alt="logo" />
+        </a>
+
+        <!-- offcanvas -->
+        <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="navbarOffcanvas"
+            aria-labelledby="navbarOffcanvasLabel"
+        >
+            <div class="offcanvas-header">
+                <button
+                    type="button"
+                    class="btn btnClose"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                >
+                    <span class="material-icons-outlined"> close </span>
+                </button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column">
+                <ul
+                    class="navbar-nav mx-lg-auto gap-6 gap-lg-3 text-center h-100"
+                >
+                    <li class="nav-item">
+                        <a class="nav-link nav-head-fill" href="#">服務方案</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-head-fill" href="#">關於職旅</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-head-fill" href="#">聯絡我們</a>
+                    </li>
+                    <!-- <li class="d-lg-none mt-auto">
+                        <button
+                            type="button"
+                            class="btn btn-secondary w-100 login"
+                        >
+                            登入/註冊
+                        </button>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- 登入註冊 -->
+        <!-- <button
+                type="button"
+                class="btn btn-outline-natural-85 py-2 px-4 px-md-6"
+            >
+                登入/註冊
+            </button> -->
+
+        <!-- 使用者區塊 -->
+        <a href="user.html" class="fw-medium ms-auto order-lg-last">
+            <img
+                src="/assets/images/avatar.png"
+                alt="user-image"
+                class="user-image rounded-circle me-2 border"
+            />Mokumaru
+        </a>
+
+        <!-- offcanvas 切換按鈕 -->
+        <button
+            class="navbar-toggler ms-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvas"
+            aria-controls="navbarOffcanvas"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>

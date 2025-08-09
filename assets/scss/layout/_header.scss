@@ -1,0 +1,42 @@
+.navbar-brand {
+    width: 92px;
+
+    @include media-breakpoint-up(md) {
+        width: 124px;
+    }
+}
+
+.nav-head-fill {
+    border-radius: 1rem;
+    padding: 1rem;
+
+    @include media-breakpoint-up(lg) {
+        padding: 0.5rem 1.5rem;
+    }
+    &:hover {
+        background-color: $natural-90;
+    }
+    &:active {
+        background-color: $natural-90;
+    }
+}
+
+.user-image {
+    width: 44px;
+    height: 44px;
+}
+
+.offcanvas-header {
+    padding: 24px 24px 16px 24px;
+}
+
+.offcanvas-body {
+    padding: 0 24px 24px 24px;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 8px 0;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap";
+
+@import "./utils/utilities";
+@import "bootstrap/scss/utilities/api";
+
+@import "./base/base";
+
+@import "./components/buttons";
+
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./layout/forms";
+
+@import "./pages/index.scss";
+@import "./pages/user";
